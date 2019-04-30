@@ -32,20 +32,8 @@
     height: 50%;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%) rotate(-90deg);
     pointer-events: none;
-}
-
-.time-select {
-    background: lightblue;
-}
-
-.sound-picker {
-    background: lightgreen;
-}
-
-.player-container {
-    background: lightcoral;
 }
 
 .time-display {
@@ -61,6 +49,9 @@ video {
     left: 0%;
     width: 100%;
     z-index: -10;
+    height: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 .time-select button,
@@ -85,7 +76,7 @@ video {
     border: none;
     height: 120px;
     widows: 120px;
-    border-radius: 50%;
+    border-radius: 60px;
     padding: 30px;
 }
 
